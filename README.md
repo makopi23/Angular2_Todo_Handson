@@ -1,9 +1,11 @@
 # Angular2 Todos
 
 以下の勉強会のハンズオンで写経したコードです。
+
 https://angularjs-jp.doorkeeper.jp/events/46362
 
 以下はハンズオン開始前の元々のREADME.mdの記述です。
+
 ---
 
 このリポジトリはAngular2を利用して簡素なTodosアプリケーションを作るためのものです。構成としては次の通り
