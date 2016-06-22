@@ -3,6 +3,7 @@
 以下の勉強会のハンズオンで写経したコードです。
 
 https://angularjs-jp.doorkeeper.jp/events/46362
+https://github.com/albatrosary/ng2Todos
 
 以下はハンズオン開始前の元々のREADME.mdの記述です。
 
