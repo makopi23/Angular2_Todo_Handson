@@ -25,6 +25,7 @@ import {TodoStore, Todo} from '../../../shared';
     `,
     styleUrls: ['components/step.2/app.css'],
     providers: [TodoStore] // TODO: 2. TodoStoreをプロバイダー登録します
+    //providers: []
 })
 export class ServiceTemplate
   implements OnInit {

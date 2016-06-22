@@ -23,16 +23,16 @@ export class TodosBodyComponent
 
   constructor (
     // TODO: 5. TodoStoreをインジェクションします
-
+    private todoStore: TodoStore
   ) {}
 
   public ngOnInit () {
     // TODO: 6. TodoStoreからTodosを取得します
-    
+    this.todos = this.todoStore.list;
   }
 
   public onDelete(index: number): void {
     // TODO: 7. todoStoreから該当する行番号(index)でデータを削除します
-    
+    this.todoStore.delete(index);
   }
 }
